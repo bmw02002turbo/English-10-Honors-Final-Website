@@ -1,0 +1,101 @@
+
+body {
+  padding-top: 65px;
+  padding-bottom: 100px;
+}
+
+.article{
+  margin-top: 0;
+  margin-bottom: 1rem;
+  padding:15px 160px;
+}
+h1,h2,h3,h4{
+  font: 20px "Lato", sans-serif;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+.rising {
+    /* The image used */
+    background-image: url("Rising.jpg");
+
+    /* Set a specific height */
+    height: calc( 100vh - 50px);
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
+
+.book {
+    /* The image used */
+    background-image: url("Book.jpg");
+    height: calc( 100vh - 50px);
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+
+}
+
+.book2 {
+    /* The image used */
+    background-image: url("Book2.jpg");
+    min-height: 300px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+
+}
+
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 40%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+  color: #fff;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+.card img{
+  object-fit: stretch; /* Do not scale the image */
+  object-position: center; /* Center the image within the element */
+  max-height: 50vh;
+}
